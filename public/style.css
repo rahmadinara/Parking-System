@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+  }
+  
+  .status {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .available { background: #16a34a; }
+  .full { background: #dc2626; }
+  
+  .parking {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .slot {
+    width: 140px;
+    height: 200px;
+    border: 2px dashed white;
+    position: relative;
+  }
+  
+  .slot span {
+    position: absolute;
+    top: 5px;
+    font-size: 12px;
+  }
+  
+  .car {
+    font-size: 60px;
+    display: none;
+  }

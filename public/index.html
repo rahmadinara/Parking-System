@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Parking</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+
+<h1>🚗 SMART PARKING</h1>
+
+<div id="status" class="status">LOADING...</div>
+
+<h2>Free Slot: <span id="free">0</span>/2</h2>
+
+<div class="parking">
+  <div class="slot">
+    <span>SLOT 1</span>
+    <div id="car1" class="car">🚗</div>
+  </div>
+
+  <div class="slot">
+    <span>SLOT 2</span>
+    <div id="car2" class="car">🚗</div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
