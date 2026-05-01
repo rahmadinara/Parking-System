@@ -77,26 +77,6 @@ npm install express mqtt socket.io
 
 ---
 
-## Struktur Project
-
-smart-parking/
-│
-├── server.js
-├── mqttClient.js
-├── socket.js
-├── dataStore.js
-│
-├── routes/
-│   └── web.js
-│
-├── public/
-    ├── index.html
-    ├── style.css
-    └── app.js
-
-
----
-
 ## Cara Menjalankan Sistem
 
 ### 1. Jalankan Server Node.js
