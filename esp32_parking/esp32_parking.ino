@@ -8,10 +8,10 @@ const char* ssid = "dinaraaa";
 const char* password = "88888888";
 
 // ================= MQTT (HiveMQ Cloud) =================
-const char* mqtt_server = "0e99766ab1e84d4b87733024352139b3.s1.eu.hivemq.cloud";
+const char* mqtt_server = "";
 const int mqtt_port = 8883;
-const char* mqtt_user = "iotgama21";
-const char* mqtt_pass = "Iotgama21";
+const char* mqtt_user = "";
+const char* mqtt_pass = "";
 
 // ================= PIN SLOT =================
 #define SLOT1 32
