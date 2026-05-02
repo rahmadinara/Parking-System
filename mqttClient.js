@@ -3,10 +3,10 @@ const data = require("./dataStore");
 
 function initMQTT(io) {
 
-  const client = mqtt.connect("mqtts://0e99766ab1e84d4b87733024352139b3.s1.eu.hivemq.cloud", {
+  const client = mqtt.connect("", {
     port: 8883,
-    username: "iotgama21",
-    password: "Iotgama21"
+    username: "",
+    password: ""
   });
 
   client.on("connect", () => {
